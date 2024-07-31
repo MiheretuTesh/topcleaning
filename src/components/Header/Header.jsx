@@ -32,7 +32,7 @@ const Header = () => {
         <div>
           <button
             onClick={handleBookCallClick}
-            className="bg-[#3461FF] text-white px-5 py-3 rounded-3xl"
+            className="bg-[#3461FF] text-white px-5 py-3 rounded-3xl hover:bg-[#2547c1] hover:shadow-lg transition duration-300 ease-in-out"
           >
             Book a Call
           </button>

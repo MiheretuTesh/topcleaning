@@ -7,14 +7,13 @@ const Footer = () => {
 
   const handleClick = () => {
     navigate("/contact");
-    // Add a small delay to ensure the page has loaded before scrolling
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }, 100);
   };
   return (
     <footer className="bg-[#FAFAFA]">
-      <div className="py-8 px-6 flex justify-between items-start px-40">
+      <div className="py-8 px-6 flex justify-between items-start mx-40">
         <div className="flex flex-col items-center justify-center gap-4">
           <img
             src="/images/logo.png"
@@ -77,20 +76,22 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-8 px-6 flex justify-between items-start bg-black px-40 text-white">
-        <div className="flex flex-col items-center justify-center gap-4">
-          © 2022 Top Cleaning, Inc. - All Rights Reserved
-        </div>
-        <div className="flex gap-10">
-          <div className="flex flex-col gap-10">
-            <Link to="#" className="hover:underline">
-              Terms of use
-            </Link>
+      <div className="py-8 px-6  bg-black text-white">
+        <div className="mx-40 flex justify-between items-start">
+          <div className="flex flex-col items-center justify-center gap-4">
+            &copy; 2022 Top Cleaning, Inc. - All Rights Reserved
           </div>
-          <div className="flex flex-col gap-10">
-            <Link to="#" className="hover:underline">
-              Privacy policy
-            </Link>
+          <div className="flex gap-10">
+            <div className="flex flex-col gap-10">
+              <Link to="#" className="hover:underline">
+                Terms of use
+              </Link>
+            </div>
+            <div className="flex flex-col gap-10">
+              <Link to="#" className="hover:underline">
+                Privacy policy
+              </Link>
+            </div>
           </div>
         </div>
       </div>
