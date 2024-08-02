@@ -13,8 +13,8 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white py-4">
-      <nav className="container mx-auto flex items-center justify-between">
+    <header className="bg-white py-4 flex justify-center mx-20 px-20">
+      <nav className="flex items-center w-full justify-between">
         <div className="flex items-center">
           <img src="/images/logo.png" alt="Logo" className="h-20 w-20" />
         </div>
