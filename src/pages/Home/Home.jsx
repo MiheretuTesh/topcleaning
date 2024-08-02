@@ -7,11 +7,11 @@ const Home = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 5000,
+    speed: 6000,
     slidesToShow: 2.5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 0,
+    autoplaySpeed: 100,
     cssEase: "linear",
     pauseOnHover: false,
     swipeToSlide: false,
